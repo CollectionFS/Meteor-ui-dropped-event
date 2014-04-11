@@ -4,5 +4,6 @@ Package.describe({
 
 Package.on_use(function (api) {
   api.use('ui', 'client');
+  api.use('underscore','client');
   api.add_files(['dropped.event.js'], 'client');
 });
